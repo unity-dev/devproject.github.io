@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "테스트 입니다."
+locale                   : "kr"
+title                    : "Game Developer!"
 title_separator          : "-"
-name                     : "Your Name 2"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "HyoJun"
+description              : "유니티로 게임 개발을 하고 있습니다. 도전하지 않은 분야에 도전하는 것을 좋아합니다"
+url                      : "https://unity-dev.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -98,13 +98,13 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# 사이트 관리자 설정 (메인 화면 왼쪽 부분)
 author:
-  name             : "Your Name 22"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person. 333"
-  location         : "Somewhere"
-  email            :
+  name             : "고 효준"
+  avatar           : "/assets/images/profile.png"
+  bio              : "Unity를 좋아하여 게임 개발을 하고 있습니다. "
+  location         : "Seoul, Korea"
+  email            : "devproject@naver.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -119,7 +119,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "hyojun" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -263,9 +263,15 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      # splash 은 author 표시가 안됨.
+      layout: hgom
+      # 게시물을 눌렀을 때, author_profile이 표시되는지 설정 ( true면 표시, false 면 미표시
+      # 메인에서는 무조건 보이나, true/false에 따라 게시물 클릭했을 때 profile이 보이는지/안보이는지가 결정됨.
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+      # 왼쪽 side bar 표시할 문구 - navigation.yml과 연동
+      sidebar:
+      nav: "docs"

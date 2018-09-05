@@ -1,12 +1,43 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "Categories"
+    url: /categories/
+
+#  - title: "About"
+#    url: /about/
+#  - title: "Resume"
+#    url: /resume/
+#  - title: "Sample Collections"
+#    url: /collection-archive/
+#  - title: "Sitemap"
+#    url: /sitemap/
+
+# docs links
+docs:
+  - title: 카테고리
+    children:
+      - title: "● 블로그"
+        url: /docs/configuration/
+      - title: "● 유니티 팁"
+        url: /docs/configuration/
+
+  - title: 추천 게시물
+    children:
+      - title: "(펌) 유니티 최적화 기법"
+        url: http://vallista.tistory.com/entry/Unity-%EA%B2%8C%EC%9E%84-%EC%B5%9C%EC%A0%81%ED%99%94-%EA%B8%B0%EB%B2%95
+#      - title: "Navigation"
+#        url: /docs/navigation/
+#      - title: "UI Text"
+#        url: /docs/ui-text/
+#      - title: "Authors"
+#        url: /docs/authors/
+#      - title: "Layouts"
+#        url: /docs/layouts/
+
+  - title: 유니티 다운로드
+    url: http://unity3d.com
+
+  - title: Toast 적용하기
+    url: http://cloud.toast.com

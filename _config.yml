@@ -264,7 +264,7 @@ defaults:
       type: posts
     values:
       # splash 은 author 표시가 안됨.
-      layout: hgom
+      layout: single
       # 게시물을 눌렀을 때, author_profile이 표시되는지 설정 ( true면 표시, false 면 미표시
       # 메인에서는 무조건 보이나, true/false에 따라 게시물 클릭했을 때 profile이 보이는지/안보이는지가 결정됨.
       author_profile: true
